@@ -1,0 +1,30 @@
+{
+  "title": "Code and per-sample results: Jev versus a reasoning LLM for structured clinical record classification",
+  "upload_type": "software",
+  "description": "Code and per-sample derived results for a paired comparison of a typed decision model (Jev) and reasoning LLMs on three structured clinical classification tasks. No source clinical records or input text are included.",
+  "creators": [
+    {
+      "name": "Zhou, Shengzhe",
+      "affiliation": "Faculty of Computer Science and Technology, Qilu University of Technology, Jinan, Shandong, China",
+      "orcid": "0009-0009-9333-0765"
+    }
+  ],
+  "keywords": [
+    "large language models",
+    "clinical classification",
+    "structured records",
+    "cost",
+    "latency",
+    "reproducibility"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.23838134",
+      "relation": "isIdentifiedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "DOI: 10.5281/zenodo.23838134. Source clinical data are not redistributed; only derived per-sample fields and code are included."
+}

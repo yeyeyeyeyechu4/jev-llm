@@ -1,0 +1,14 @@
+﻿# Zenodo upload steps (Jev reproducibility package, DOI 10.5281/zenodo.23838134)
+
+1. Log in to https://zenodo.org (ORCID login works).
+2. New upload -> select "Software" as upload type.
+3. Upload EITHER the folder contents OR Jev-reproducibility-v1.0.0.zip (recommended: the zip).
+4. Metadata:
+   - Title: Code and per-sample results: Jev versus a reasoning LLM for structured clinical record classification
+   - Creators: Zhou, Shengzhe; affiliation: Faculty of Computer Science and Technology, Qilu University of Technology; ORCID 0009-0009-9333-0765
+   - License: MIT
+   - Version: 1.0.0
+   - Keywords: large language models; clinical classification; structured records; cost; latency; reproducibility
+   - Description: use the text in reproducibility/zenodo.json
+5. Publish. The existing DOI is 10.5281/zenodo.23838134; this upload should be the version it resolves to (if Zenodo creates a new record, update the DOI in the manuscript instead).
+6. Do not upload source clinical data; only code and derived per-sample results are included.
